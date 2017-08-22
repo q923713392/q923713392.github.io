@@ -1,48 +1,601 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8" /> 
-	<title>翻书</title>
-	<link rel="stylesheet" type="text/css" href="css/book.css">
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/book.js"></script>
+<title>欢迎阅读我的简历</title>
+<!--mobile apps-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="My Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--mobile apps-->
+<!--Custom Theme files-->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/swipebox.css">
+<!--//Custom Theme files-->
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->
+<!--web-fonts-->
+<link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<!--//web-fonts-->
+<!--start-smooth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smooth-scrolling-->
 </head>
 <body>
-	<section id="knowledge" class="viewBlock">
-		<div class="bookBox">
-			<a class="lastBtn"><</a>
-			<a class="nextBtn">></a>
-			<div class="bookPage frist">
-				<img src="img/dataImg1.png" />
-			</div>
-			<div class="bookPage runPage">
-				<div class="bookWord">
-					<span>Glacier</span> is the polar or alpine areas exist on the surface for many years and has a natural ice body along the ground motions. Ice snow for many years, after compaction, recrystallization, then freeze into ice. About 1/10 of the land area of glaciers on earth, and 4/5 of the fresh water resource is stored in the glacier.
-					<span class="pageNumber">1</span>
+	<!--banner-->
+	<div id="home" class="banner">
+		<div class="banner-info">
+			<div class="container">
+				<div class="col-md-4 header-left">
+					<img src="images/head.jpg" alt="" style="width: 200px;height: 260px;"/>
 				</div>
-				<img src="img/dataImg2.png" />	
-			</div>
-			<div class="bookPage runPage">
-				<div class="bookWord">				
-					<span>Surface</span>  water  is the floorboard of the dynamic water and static water on land surface, which belongs to dynamic water lakes, rivers, and marshes, is the most important and most direct source of water supply, the earth's ecosystem system is to maintain stable operation of the blood.
-					<span class="pageNumber">2</span>
+				<div class="col-md-8 header-right">
+					<!--<h2>Hello</h2>-->
+					<h1>邢玉林</h1>
+					<h6>意向职位：<b>PHP开发</b></h6>
+					<ul class="address">
+						<li>
+							<ul class="address-text">
+								<li><b>生日：</b></li>
+								<li>1995-06</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>电话： </b></li>
+								<li>18833030521</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>住址： </b></li>
+								<li>河北张家口</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>微信 </b></li>
+								<li>weiai923713392 </li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>邮箱： </b></li>
+								<li><a href="mailto:923713392@qq.com"> 923713392@qq.com</a></li>
+							</ul>
+						</li>
+
+					</ul>
 				</div>
-				<img src="img/dataImg3.png" />
+				<div class="clearfix"> </div>
 			</div>
-			<div class="bookPage runPage">
-				<div class="bookWord">
-					<span>Groundwater</span> as an important bodies of water, the earth has close relationship with human society. Groundwater storage is in the ground to form a large reservoir, with its stable water supply conditions, good water quality, become the human society of water less than nuuk.
-					<span class="pageNumber">3</span>
-				</div>
-				<img src="img/dataImg4.png" />
+		</div>
+	</div>
+	<!--//banner-->
+	<!--top-nav-->
+	<div class="top-nav wow">
+		<div class="container">
+			<div class="navbar-header logo">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					Menu
+				</button>
 			</div>
-			<div class="bookPage last">
-				<div class="bookWord">
-					<span>Ocean</span>  is the world's most extensive water, center part of the ocean called the, edges as the sea, and communicate with each other of unified bodies of water. Contains more than one billion three hundred million and five thousand cubic kilometers of sea water, accounting for about 97% of the total water on the earth, and can be used for human consumption accounts for only 2%.
-					<span class="pageNumber">4</span>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="menu">
+					<ul class="nav navbar">
+						<li><a href="#about" class="scroll">自我介绍</a></li>
+						<li><a href="#work" class="scroll">工作经历</a></li>
+						<li><a href="#education" class="scroll">教育经历</a></li>
+						<li><a href="#skills" class="scroll">技能</a></li>
+						<li><a href="#projects" class="scroll">项目</a></li>
+						<!--<li><a href="#contact" class="scroll">联系方式</a></li>-->
+					</ul>
+					<div class="clearfix"> </div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>	
+	<!--//top-nav-->
+	<!--about-->
+	<div id="about" class="about">
+		<div class="container">
+			<h3 class="title"> 自我介绍</h3>
+			<div class="col-md-12 about-left">
+				<p style="text-indent: 2em;">本人热爱生活，性格开朗活泼，积极勤奋，有团队精神，拥有充实的专业知识，也有独立的思维能力，工作态度认真，对计算机有着浓厚的兴趣，熟练photoshop，dreamware，phpstorm,subline,office、会声会影等软件，并对计算机维护有一定的了解．有一定的关工作经验。熟悉JavaScript、jquery等网站相关技术,熟悉目前流行的网站开源框架并且能二次开发一些开源的建站程序，如DDCMS,帝国CMS等,对ajax、thinkphp、lamp、负载均衡、页面静态化有一定的了解，自我学习和约束力较强，希望能成为贵公司一份子,今后务必尽自己能力为贵公司出一份力.</p>
+			</div>
+			<!--<div class="col-md-4 about-right">
+				<ul>
+					<h5>Awards</h5>
+					<li><span class="glyphicon glyphicon-menu-right"></span> Lorem ipsum dolor sit amet cingelit</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> Curabitur id metus rutrum convallis</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> Morbi dictum velit vitae porttitor</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> Fusce at metus id justo ullamcorper</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> Aliquam ac nisl id justo malesuada </li>
+				</ul>
+				<div class="clearfix"> </div>
+			</div>-->
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//about-->
+	<!--work-experience-->
+	<div id="work" class="work">
+		<div class="container">
+			<h3 class="title">工作经历</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>2016.12 -- 2017.06  </h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"> </span> 智行网路网络公司</h5>
+					<p>在邯郸市智行网路网络公司实习，负责参与设计制作该公司网站，包括该公司网站的运行和维护，并在空闲时间利用PHP、MYSQL和高德云图为学校开发了一套学生就业信息统计系统。 </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!--<div class="work-info">
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>2013 - 2014 </h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5> Company Name <span class="glyphicon glyphicon-briefcase"> </span></h5>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>2012 - 2013 </h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"> </span> Company Name</h5>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>2010 - 2012 </h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5> Company Name <span class="glyphicon glyphicon-briefcase"></span> </h5>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>-->
+		</div>
+	</div>
+	<!--//work-experience-->
+	<!--education-->
+	<div id="education" class="education">
+		<div class="container">
+			<h3 class="title">教育经历</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>2016.09 -- 2016.12</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<!--<h5><span class="glyphicon glyphicon-education"> </span> University Name</h5>-->
+					<p>课程包括《PHP》、《百度竞价》、DDCMS二次开发、bootstrap框架、H5，并设计开发了自己的《互联网信息港》网站，参加了校内组织的《网页设计大赛》 </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>2016.03 -- 2016.06</h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<!--<h5> University Name <span class="glyphicon glyphicon-education"></span></h5>-->
+					<p>课程包括《JS》、《SEO》、《计算机维护》,等，并开发制作了自己的《美文说说网》网站</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>2015.09 -- 2016.01</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<!--<h5><span class="glyphicon glyphicon-education"> </span> University Name</h5>-->
+					<p>课程包括《HTML》、《CSS》、《UI设计》、《网站美工》等，并参加了学校的海报设计 </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//education-->
+	<!--skills-->
+	<div id="skills" class="skills">
+		<div class="container">
+			<h3 class="title">技能</h3>
+			<div class="skills-info">
+				<div class="col-md-6 bar-grids">
+					<h6>LINUX<span> 80% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 80%">
+						</div>
+					</div>
+					<h6>JAVASCRIPT<span> 70% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 70%">
+						</div>
+					</div>
+					<h6>HTML/CSS<span>90% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 90%">
+						</div>
+					</div>
+					<h6>SEO<span> 75% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 75%">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 bar-grids">
+					<h6>PS<span> 85% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 85%">
+						</div>
+					</div>
+					<h6>PHP<span> 95% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 95%">
+						</div>
+					</div>
+					<h6>MYSQL<span>80% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 80%">
+						</div>
+					</div>
+					<h6>THINKPHP<span> 60% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 60%">
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//education-->
+	<!--portfolio-->
+	<div id="projects" class="portfolio">
+		<div class="container">
+			<h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">项目作品</h3>
+			<div class="sap_tabs">			
+				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+					<ul class="resp-tabs-list wow fadeInUp animated" data-wow-delay=".7s">
+						<li class="resp-tab-item"><span>All</span></li>
+						<li class="resp-tab-item"><span>Html</span></li>
+						<li class="resp-tab-item"><span> PHP</span></li>
+						<li class="resp-tab-item"><span>PS</span></li>
+					</ul>	
+					<div class="clearfix"> </div>	
+					<div class="resp-tabs-container">
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/aoplo.png" class="swipebox" title="美文说说网">
+											<img src="images/aoplo.png" alt="" class="img-responsive imghtml" />
+											<div class="figcaption">
+												<h3><span>美文说说网</span></h3>
+												<a href="http://www.aoplo.com" target="_blank"><p>点此访问站点</p></a>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/hlwxxg.png" class="swipebox" title="互联网信息港">
+											<img src="images/hlwxxg.png" alt="" class="img-responsive imghtml" />
+											<div class="figcaption">
+												<h3><span>互联网信息港</span></h3>
+												<a href="http://ww.hlwxxg.cn" target="_blank"><p>点此访问站点</p></a>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/liangjian.png" class="swipebox" title="亮剑网">
+											<img src="images/liangjian.png" alt="" class="img-responsive imghtml" />
+											<div class="figcaption">
+												<h3><span>亮剑网</span></h3>
+												<a href="http://liangjian.hlwxxg.cn" target="_blank"><p>点此访问站点</p></a>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/xsxxxt.png" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/xsxxxt.png" alt="" class="img-responsive imgphp" />
+											<div class="figcaption">
+												<h3><span>学生信息统计系统  </span></h3>
+												<a href="http://map.hlwxxg.cn" target="_blank"><p>点此访问站点</p></a>
+
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/lianluo.png" class="swipebox" title="邮件联络">
+											<img src="images/lianluo.png" alt="" class="img-responsive imgphp" />
+											<div class="figcaption">
+												<h3><span>邮件联络系统</span></h3>
+												<a href="http://www.hlwxxg.cn" target="_blank"><p>点此访问站点</p></a>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/txt.png" class="swipebox" title="txt文件分割">
+											<img src="images/txt.png" alt="" class="img-responsive imgphp" />
+											<div class="figcaption">
+												<h3><span>txt文件分割系统</span></h3>
+												<a href="http://txt.aoplo.com" target="_blank"><p>点此访问站点</p></a>
+
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/xywz.png" class="swipebox" title="学院网站">
+											<img src="images/xywz.png" alt="" class="img-responsive imgps" />
+											<div class="figcaption">
+												<h3><span>班级主题网站</span></h3>
+												<!--<p>Sarah likes to watch clouds. She's quite depressed.</p>-->
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/zqc.png" class="swipebox" title="致青春">
+											<img src="images/zqc.png" alt="" class="img-responsive imgps" />
+											<div class="figcaption">
+												<h3><span>致青春</span></h3>
+												<!--<p>Sarah likes to watch clouds. She's quite depressed.</p>-->
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/hb.png" class="swipebox" title="海报">
+											<img src="images/hb.png" alt="" class="img-responsive imgps" />
+											<div class="figcaption">
+												<h3><span>明星海报</span></h3>
+												<!--<p>Sarah likes to watch clouds. She's quite depressed.</p>-->
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/aoplo.png" class="swipebox" title="美文说说网">
+											<img src="images/aoplo.png" alt="" class="img-responsive imghtml" />
+											<div class="figcaption">
+												<h3><span>美文说说网</span></h3>
+												<p>www.aoplo.com</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/hlwxxg.png" class="swipebox" title="互联网信息港">
+											<img src="images/hlwxxg.png" alt="" class="img-responsive imghtml" />
+											<div class="figcaption">
+												<h3><span>互联网信息港</span></h3>
+												<p>www2.hlwxxg.cn</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/liangjian.png" class="swipebox" title="亮剑网">
+											<img src="images/liangjian.png" alt="" class="img-responsive imghtml" />
+											<div class="figcaption">
+												<h3><span>亮剑网</span></h3>
+												<p>liangjian.hlwxxg.cn</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/xsxxxt.png" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/xsxxxt.png" alt="" class="img-responsive imgphp" />
+											<div class="figcaption">
+												<h3><span>学生信息统计系统  </span></h3>
+												<p>map.hlwxxg.cn</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/lianluo.png" class="swipebox" title="邮件联络">
+											<img src="images/lianluo.png" alt="" class="img-responsive imgphp" />
+											<div class="figcaption">
+												<h3><span>邮件联络系统</span></h3>
+												<p>www.hlwxxg.cn</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/txt.png" class="swipebox" title="txt文件分割">
+											<img src="images/txt.png" alt="" class="img-responsive imgphp" />
+											<div class="figcaption">
+												<h3><span>txt文件分割系统</span></h3>
+												<p>txt.aoplo.com</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/xywz.png" class="swipebox" title="学院网站">
+											<img src="images/xywz.png" alt="" class="img-responsive imgps" />
+											<div class="figcaption">
+												<h3><span>班级主题网站</span></h3>
+												<!--<p>Sarah likes to watch clouds. She's quite depressed.</p>-->
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/zqc.png" class="swipebox" title="致青春">
+											<img src="images/zqc.png" alt="" class="img-responsive imgps" />
+											<div class="figcaption">
+												<h3><span>致青春</span></h3>
+												<!--<p>Sarah likes to watch clouds. She's quite depressed.</p>-->
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/hb.png" class="swipebox" title="海报">
+											<img src="images/hb.png" alt="" class="img-responsive imgps" />
+											<div class="figcaption">
+												<h3><span>明星海报</span></h3>
+												<!--<p>Sarah likes to watch clouds. She's quite depressed.</p>-->
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--ResponsiveTabs-->
+			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('#horizontalTab').easyResponsiveTabs({
+						type: 'default', //Types: default, vertical, accordion           
+						width: 'auto', //auto or any width like 600px
+						fit: true   // 100% fit in a container
+					});
+				});		
+			</script>
+			<!--//ResponsiveTabs-->
+			<!-- swipe box js -->
+			<script src="js/jquery.swipebox.min.js"></script> 
+				<script type="text/javascript">
+					jQuery(function($) {
+						$(".swipebox").swipebox();
+					});
+			</script>
+			<!-- //swipe box js -->
+		</div>
+	</div>
+	<!--//portfolio-->
+	<!--contact -->
+	<!--<div class="welcome contact" id="contact">
+		<div class="container">
+			<h3 class="title">联系方式</h3>
+			<div class="contact-row">
+				<div class="col-md-6 contact-left">
+				&lt;!&ndash;	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250261.21285550427!2d-60.42919264432581!3d46.13039392716506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b67ef033cc4082f%3A0xbf0517bb7d9ecd34!2sNorth+Sydney%2C+NS%2C+Canada!5e0!3m2!1sen!2sin!4v1460613320469"></iframe>&ndash;&gt;
+				</div>
+				<div class="col-md-12 contact-right">
+					<div class="address-left">
+						<p>756 global Place, North Sydney,<br> FA-2305,Canada </p>
+					</div>
+					<div class="address-right">
+						<p>Call us :  +00 111 222 3333</p>
+						<p>E-mail : <a href="mailto:info@example.com">mail@example.com</a></p>
+					</div>
+					<div class="clearfix"></div>
+					<div class="contact-form">
+						<form action="#" method="post">
+							<input type="text" name="Name" placeholder="Name" required="">
+							<input class="email" name="Email" type="text" placeholder="Email" required="">
+							<input class="phone" name="phone" type="text" placeholder="Phone" required="">
+							<textarea name="Message" placeholder="Message" required=""></textarea>
+							<input type="submit" value="SUBMIT" >
+						</form>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>-->
+	<!--//contact -->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<p>© 2017 My Resume. All rights reserved | Design by KALIN</p>
+		</div>
+	</div>
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>
